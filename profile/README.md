@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 This is a project about comfortable, clear and simple crm system⚙️
 
 <!--
 
