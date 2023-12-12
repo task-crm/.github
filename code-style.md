@@ -91,6 +91,10 @@ private Optional<User> findUser; // getUser - неправильно
 private User getUser; // findUser - неправильно
 ```
 ```
-public User create(User user); // public User create(UserDto userDto); - неправильно
+public User create(User user); // public User create(UserDto userDto); - неправильно, на уровне сервиса работаем с моделью. Можно принимать команду UserCreateCmd
+```
+```
+public void check(User user); // check void метод ,который бросает ошибки в случае не валидных данных 
+public ValidateResult validate(User user); // validate возвращает результат валидации и не кидает ошибки
 ```
 ***
