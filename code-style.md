@@ -86,4 +86,11 @@ private boolean enabled; //isEnabled - неправильно
 private Map<String, Enum> enumByType; // enumMaps - неправильно. Правило valueByKey
 private List<User> users; // userList - неправильно. Не привязываемся к реализации
 ```
+```
+private Optional<User> findUser; // getUser - неправильно
+private User getUser; // findUser - неправильно
+```
+```
+public User create(User user); // public User create(UserDto userDto); - неправильно
+```
 ***
